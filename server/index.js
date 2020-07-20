@@ -62,7 +62,7 @@ io.on("connect", (socket) => {
         users: getUsersInRoom(user.room),
       });
     }
-    console.log("User has disconnected.");
+    console.log(`${user.name} has disconnected.`);
   });
 });
 
